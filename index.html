@@ -3,19 +3,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./styles/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>proyecto bleasy</title>
 </head>
 <body>
+
+    <section class="seccion1">
     <nav>
 
         <div class="logo">
-            <p>BLU <span>E</span>ASY</p>
+            <p>BLU<span>E</span>ASY</p>
         </div>
 
         <div class="pestañas-nav">
-            <li>HOME</li>
+            <li class="home">HOME</li>
             <li>SERVICES</li>
             <li>FEATURES</li>
             <li>ORTFOLIO</li>
@@ -24,12 +29,13 @@
         </div>
 
     </nav>
+    <div class="contenedor-texto">
 
-    <section class="seccion1">
-
-        <h1>"I´M LOOKING FOR THE UNEXPECTED</h1>
-        <h1>"I´M LOOKING THINGS I´VE NEVER SEEN BEFORE"</h1>
-
+ <h1 class="arriba">"I´M LOOKING FOR THE UNEXPECTED.</h1>
+ <br>
+        <h1 class="arriba">I´M LOOKING THINGS I´VE NEVER SEEN BEFORE"</h1>
+    </div>
+       
     </section>
 
     <section class="seccion2">
@@ -45,7 +51,7 @@
 
         <div class="sec2">
             <img src="./assets/images/instant.png" alt="#">
-            <h2>COFFEE</h2>
+            <h2>INSTANT</h2>
             <p>Apple pie icing sweet. Brownie jelly-o applicake
                applicake sweet roll liquorice bear claw. Jujubes
                carrot cake cotton candy sweet tart brownie
@@ -54,7 +60,7 @@
 
         <div class="sec3">
             <img src="./assets/images/serious.png" alt="#">
-            <h2>COFFEE</h2>
+            <h2>SERIUS</h2>
             <p>Apple pie icing sweet. Brownie jelly-o applicake
                applicake sweet roll liquorice bear claw. Jujubes
                carrot cake cotton candy sweet tart brownie
@@ -63,7 +69,7 @@
 
         <div class="sec4">
             <img src="./assets/images/frame.png" alt="#">
-            <h2>COFFEE</h2>
+            <h2>FRANE</h2>
             <p>Apple pie icing sweet. Brownie jelly-o applicake
                applicake sweet roll liquorice bear claw. Jujubes
                carrot cake cotton candy sweet tart brownie
@@ -75,29 +81,28 @@
     <section class="seccion3">
 
         <div class="info">
-
             <div class="titulo">
-                <h3>PORTFOLIO</h3>
+                <p><samp class="por">POR</samp>TFOLIO</p>
             </div>
 
-            <div class="pestaña-info">
-                <li>ALL</li>
+                <li class="all">ALL</li>
                 <li>PANORAMAS</li>
                 <li>PORTRAITS</li>
                 <li>MACRO</li>
                 <li>JOURNAL</li>
             </div>
-
+        </div>
+        <div class="grid">
             <div class="cubitos">
-                <li class="cubo1">num1</li>
-                <li class="cubo2">num2</li>
-                <li class="cubo3">num3</li>
-                <li class="cubo4">num4</li>
+                <li class="cubo1 cell" >num1</li>
+                <li class="cubo2 cell">num2</li>
+                <li class="cubo3 cell">num3</li>
+                <li class="cubo4 cell">num4</li>
 
-                <li class="cubo5">num5</li>
-                <li class="cubo6">num6</li>
-                <li class="cubo7">num7</li>
-                <li class="cubo8">num8</li>
+                <li class="cubo5 cell">num5</li>
+                <li class="cubo6 cell">num6</li>
+                <li class="cubo7 cell">num7</li>
+                <li class="cubo8 cell">num8</li>
             </div>
         </div>
 
@@ -105,37 +110,40 @@
 
     <section class="seccion4">
 
-        <div class="titu">
+  <div class="contenido-izq">
+    <div class="titu">
+      <h2> <samp class="just">  JUST</samp> DEAULT SECTION</h2>
+    </div>
 
-            <h2>JUST DEAULT SECTION</h2>
-        </div>
-        <div class="texto">
-
+    <div class="texto">
             <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi
                bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflê
-               cotton candy dessert candy ice cream wafer gummies cheesecake brownie,
+               cotton candy dessert candy ice cream wafer gummies cheesecake brownie, <br><br>
                Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate
                cake I love pudding. Ice cream I love powder pudding apple pie
                marshmallow. Cupcake marzipan oat cake bonbon I love candy canes
                toffee.</p>
 
-               <a href="#">VISIT ME</a>
+      <a href="#">VISIT ME</a>
+    </div>
+  </div>
 
-        </div>
+  <div class="img4">
+    <img src="./assets/images/VimeoVideo.png" alt="">
+  </div>
 
-        <div class="img4">
+</section>
 
-         <img src="./assets/images/VimeoVideo.png" alt="">
-        
-        </div>
 
-    </section>
+
+
+
 
     <section class="seccion5">
 
         <div class="ti">
 
-            <h2>TWITTER</h2>
+            <h2><samp class="TW">TW</samp>ITTER</h2>
             <img src="./assets/images/icon-twitter.png" alt="">
         
         </div>
@@ -143,7 +151,7 @@
         <div class="textu">
 
             <p>Unerdwear cooke liquorice. Cake donut cupcake lolipop soufflé candy. Choclate oat cake 
-               <br> <span>@cheesecake</span> tootsie roll</p>
+               <br> <span class="alroba">@cheesecake</span> tootsie roll</p>
         </div>
 
     </section>
@@ -151,10 +159,10 @@
     <section class="seccion6">
 
         <div class="izquierdo">
-            <h2>who is john doe?</h2>
+            <h2> <samp class="WHO">WHO</samp> IS JOHN DOE?</h2>
             <p>Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi
                bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflê
-               cotton candy dessert candy ice cream wafer gummies cheesecake brownie,
+               cotton candy dessert candy ice cream wafer gummies cheesecake brownie,<br><br>
                Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate
                cake I love pudding. Ice cream I love powder pudding apple pie
                marshmallow. Cupcake marzipan oat cake bonbon I love candy canes
@@ -165,19 +173,89 @@
             <p>Pudding dessert jajubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps
                sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake
                toffee pie bear claw pastry.</p>
-
-            <li><img src="./assets/images/icon-twitterF.png" alt=""></li>
+               
+        <div>
+            <li class="tui"><img src="./assets/images/icon-twitterF.png" alt=""></li>
             <li><img src="./assets/images/icon-google-plusF.png" alt=""></li>
             <li><img src="./assets/images/icon-dribbbleF.png" alt=""></li>
             <li><img src="./assets/images/icon-coffeeF.png" alt=""></li>
+        </div>
         </div>
 
     </section>
 
     <section class="seccion7">
-        <h2>TESTIMONIALS</h2>
+    <div class="comillas">
+        <div>
+            <h2><samp class="TES">TES</samp>TIMONIALS</h2>
+        </div>
+        <div class="comilla">
+            <img class="sccion7" src="/assets/images/1771943768413.png" alt="">
+        </div>
+    </div>
         <p>Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmalow wafer macaroon cheesecake jelly. Gingebread cookie soufflé sweet roll sweet roll jelly-o</p>
+   
+    <a class="link">-Walter White</a>
     </section>
+
+              
+    <section class="seccion8">
+
+        <h2><samp class="CO">CO</samp>NTACT</h2>
+
+        <div class="contacto-contenido">
+
+
+              <div class="infe">
+      <p>
+        Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar.
+        Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate
+        bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.
+      </p>
+
+      <p class="direccion">
+        Linda Newman<br>
+        W325 State Road 123<br>
+        Mondovi, WI (Wisconsin) 98746-54321<br>
+        (715) 946 - 1234
+      </p>
+    </div>
+    <div class="formulario">
+      <label>FULL NAME</label>
+      <input type="text">
+
+      <label>EMAIL</label>
+      <input type="text">
+
+      <label>MESSAGE</label>
+      <textarea></textarea>
+
+      <button>MESSAGE</button>
+    </div>
+
+ 
+  
+
+  </div>
+</section>
+
+
+
+    <footer>
+
+        <div class="pestañas-footer">
+            <li>HOME </li>
+            <li>SERVICES </li>
+            <li>FEATURES </li>
+            <li>ORTFOLIO </li>
+            <li>CONTACT </li>
+
+        </div>
+
+          <div class="fecha">
+            <p>2013</p>
+        </div>
+    </footer>
 
     
     
